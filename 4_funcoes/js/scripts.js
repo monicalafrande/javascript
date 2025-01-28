@@ -75,7 +75,7 @@ const multiplication = (m, n) => {
 }
 
 console.log(multiplication(5, 10));
-console.log(multiplication(5));*/
+console.log(multiplication(5));
 
 // Argumento default
 
@@ -84,3 +84,9 @@ const saudacaoPersona = (nome, sauda = "Olá") => {
 }
 console.log(saudacaoPersona("Mônica"));
 console.log(saudacaoPersona("Mônica", "Bom dia"))
+
+const saudacaoPersonalizada = (nome, saudacao = "Olá") => {
+    return `${saudacao}, ${nome}.`;
+}
+console.log(saudacaoPersonalizada("Mônica"));
+console.log(saudacaoPersonalizada("Paola", "Boa tarde"));*/
